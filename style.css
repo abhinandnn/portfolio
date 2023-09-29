@@ -1,8 +1,11 @@
+body{
+    background-color: #272829;
+}
 header{
     display: flex ;
-    height : 7vh;
+    height : 8vh;
     background-color: #272829;
-    box-shadow: 0px 1px 5px 2px whitesmoke ;
+    /* box-shadow: 0px 1px 5px 2px rgb(88,88,88); */
     align-items: center;
     
 }
@@ -11,7 +14,7 @@ header{
 }
 a{
     text-decoration: none;
-    color : whitesmoke
+    color : whitesmoke;
 }
 .bigspace{
     width : 30vw ;
@@ -24,6 +27,14 @@ a{
     font-weight: bold;
     font-family: 'Nunito', sans-serif;
 }
+.name:hover{
+    margin-left: 1vw;
+    color: orange;
+    font : 2em ;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    transition: 0.4s;
+}
 
 .logo{
     width : 5vw ;
@@ -33,8 +44,8 @@ a{
 }
 
 .image{
-    width : 100% ;
-    height: 90% ;
+    width : 200% ;
+    height: 180% ;
 
 }
 
@@ -51,27 +62,66 @@ nav > div {
     padding: 0.5vw;
     padding-left: 0.7vw;
     padding-right: 0.7vw;
+    padding-bottom: 0.3vw;
 }
 
 .home:hover{
-    background-color: #181818;
-    border-bottom: 2px solid orange;
+    /* background-color: #181818; */
+    border-bottom : 0.1vw solid orange;
 }
 .skills:hover{
-    background-color: #181818;
-    border-bottom: 2px solid orange;
+    /* background-color: #181818; */
+    border-bottom: 0.1vw solid orange;
 }
 
 .projects:hover{
-    background-color: #181818;
-    border-bottom: 2px solid orange;
+    /* background-color: #181818; */
+    border-bottom: 0.1vw solid orange;
     
 }
 .contact:hover{
-    background-color: #181818;
-    border-bottom: 2px solid orange;    
+    /* background-color: #181818; */
+    border-bottom: 0.1vw solid orange;    
 }
 .resume:hover{
-    background-color: #181818;
-    border-bottom: 2px solid orange;    
+    /* background-color: #181818; */
+    border-bottom: 0.1vw solid orange;    
+}
+.homea{
+    display: flex ;
+    height : 7vh;     
+    align-items: center; 
+    justify-content: center;       
+    height: 90vh;
+    
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    color : whitesmoke;
+    width: 70%;
+    height : 100% ;
+    justify-content: center;
+    gap : 5vh;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+}
+.intro > div > h2 > span:hover{
+    color : #F45050;
+    transition: 0.4s;
+}
+.intro > div > h1{
+    /* color : goldenrod; */
+    margin-bottom:-2vh;}
+.intro > div {
+    width : 100%; 
+}
+.into{
+    color : goldenrod;
+}
+.intro > div > h3 > span:hover{
+    font-weight: bolder;
+    color : rgb(45, 166, 214);
+    transition : 0.4s;
 }
