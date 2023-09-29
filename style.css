@@ -8,6 +8,7 @@ header{
     /* box-shadow: 0px 1px 5px 2px rgb(88,88,88); */
     align-items: center;
     
+    
 }
 .space{
     width : 7vw;
@@ -56,36 +57,37 @@ nav{
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     transition: all 0.2s linear;
+    
 }
 
 nav > div {
     padding: 0.5vw;
     padding-left: 0.7vw;
     padding-right: 0.7vw;
-    padding-bottom: 0.3vw;
+    border-bottom : 0.2vw solid #272829; 
 }
 
 .home:hover{
     /* background-color: #181818; */
-    border-bottom : 0.1vw solid orange;
+    border-bottom : 0.2vw solid orange;
 }
 .skills:hover{
     /* background-color: #181818; */
-    border-bottom: 0.1vw solid orange;
+    border-bottom: 0.2vw solid orange;
 }
 
 .projects:hover{
     /* background-color: #181818; */
-    border-bottom: 0.1vw solid orange;
+    border-bottom: 0.2vw solid orange;
     
 }
 .contact:hover{
     /* background-color: #181818; */
-    border-bottom: 0.1vw solid orange;    
+    border-bottom: 0.2vw solid orange;    
 }
 .resume:hover{
     /* background-color: #181818; */
-    border-bottom: 0.1vw solid orange;    
+    border-bottom: 0.2vw solid orange;    
 }
 .homea{
     display: flex ;
@@ -95,6 +97,7 @@ nav > div {
     height: 90vh;
     
 }
+/*Introduction*/
 .intro{
     display: flex;
     flex-direction: column;
@@ -106,22 +109,154 @@ nav > div {
     align-items: center;
     font-family: 'Nunito', sans-serif;
     font-weight: bolder;
+    margin-top: 16vw;
 }
 .intro > div > h2 > span:hover{
-    color : #F45050;
+    color : orange;
     transition: 0.4s;
 }
 .intro > div > h1{
     /* color : goldenrod; */
     margin-bottom:-2vh;}
-.intro > div {
+    .intro > div > h4{
+        margin-bottom:-0.1vh;
+    }
+    .intro > div {
     width : 100%; 
-}
-.into{
-    color : goldenrod;
 }
 .intro > div > h3 > span:hover{
     font-weight: bolder;
     color : rgb(45, 166, 214);
     transition : 0.4s;
 }
+.about2{
+    display: flex;
+    background-color: #4D2DB7;
+    width: 8vw;
+    height: 3vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.about2:hover{
+    background-color: #371f86;
+    box-shadow: 0px 1px 5px 2px whitesmoke ;
+}
+
+/*Skills*/
+.skillsa{
+    width : 98vw ;
+    height : 50vh ;
+    background-color: #272829;
+    border-radius: 10px;
+    
+  }
+  
+  .skil{
+      display: flex;
+      gap: 2vw;
+      justify-content: center;
+      align-items: center;
+      height: 10vh;
+      /* translate: translate(0,1vh); */
+      color : whitesmoke;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bolder;
+  }
+  
+  .skil > h1 {
+      font-weight: bolder;
+      background-color:#272829 ;
+      padding: 1vw;
+      border-radius: 10px ;
+  }
+  .k{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .skills_space{    
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #272829;
+      height: 20vh;
+      transform: translate(0,3vh);
+      width : 95vw;
+      border-radius: 15px;
+      box-shadow: 0px 1px 5px 2px black ;
+  }
+  .html_{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #272829;
+      border-radius: 50%;
+      height: 15vh;
+      width: 15vh;
+  }
+  
+  .html_:hover{
+      background-color: #181818;
+      transform: translateY(-5px);
+      box-shadow: 0px 1px 5px 2px whitesmoke ;
+  }
+  .css_{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #272829;
+      border-radius: 50%;
+      height: 15vh;
+      width: 15vh;
+  }
+  .css_:hover{
+      background-color: #181818;
+      transform: translateY(-5px);
+      box-shadow: 0px 1px 5px 2px whitesmoke ;
+  }
+  .c_{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272829;
+    border-radius: 50%;
+    height: 15vh;
+    width: 15vh;
+}
+.c_:hover{
+    background-color: #181818;
+    transform: translateY(-5px);
+    box-shadow: 0px 1px 5px 2px whitesmoke ;
+}
+  .cpp_{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #272829;
+      border-radius: 50%;
+      height: 15vh;
+      width: 15vh;
+  }
+  .cpp_:hover{
+      background-color: #181818;
+      transform: translateY(-5px);
+      box-shadow: 0px 1px 5px 2px whitesmoke ;
+  }
+  .javascript_{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #272829;
+      border-radius: 50%;
+      height: 15vh;
+      width: 15vh;
+  }
+  .javascript_:hover{
+      background-color: #181818;
+      transform: translateY(-5px);
+      box-shadow: 0px 1px 5px 2px whitesmoke ;
+  }
+ 
