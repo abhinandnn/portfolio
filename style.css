@@ -22,7 +22,7 @@ a{
     width : 30vw ;
 }
 
-.name{
+/*.name{
     margin-left: 1vw;
     color: whitesmoke;
     font : 2em ;
@@ -36,7 +36,7 @@ a{
     font-weight: bold;
     font-family: 'Nunito', sans-serif;
     transition: 0.4s;
-}
+}*/
 
 .logo{
     width : 5vw ;
@@ -110,9 +110,8 @@ nav > div {
     font-weight: bolder;
     margin-top: 16vw;
 }
-.intro > div > h2 > span:hover{
+.intro > div > h2 > span{
     color : orange;
-    transition: 0.4s;
 }
 .intro > div > h1{
     /* color : goldenrod; */
